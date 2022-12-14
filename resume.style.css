@@ -1,0 +1,100 @@
+/* styles for my resume */
+<style type="text/css">
+/*css code*/
+
+html, body, {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    height: 100%;
+    width: 100%;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+p {
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Serif', serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*change font*/
+.myname {
+  font-family: 'times', serif;
+  font-size: 3em;
+  font-weight: bold;
+  color: black;
+  margin-left: 0%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  font-family: 'times', serif;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  margin-left: 5%;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #F6E8EA ;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+/*.topnav a.active {
+  background-color: #F6E8EA;
+  color: black;
+}*/
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+hr {
+  color: pink;
+  width: 50em;
+  height: 0.1em;
+  margin-left: 5%;
+  background-color: #FF66B3;
+}
+
+.storylinks {
+  font-size: 25px;
+  font-family: 'times', serif;
+  display: block;
+  color: black;
+  text-align: left;
+  padding: 14px 16px;
+}
+
+h4 {
+margin-left: 0%;
+}
+
+h3 {
+margin-left: 0%;
+}
+
+h2{
+  margin-left: 0%;
+}
+
+p {
+  margin-left: 5%;
+  margin-right: 25%;
+}
+  </style>
