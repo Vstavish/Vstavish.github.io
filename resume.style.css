@@ -18,6 +18,8 @@ p {
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Serif', serif;
 font-family: 'Source Sans Pro', sans-serif;
+display: block;
+margin-left: 5%;
 }
 
 /*change font*/
