@@ -20,40 +20,44 @@ p {
   display: block;
   margin-left: 5%;
   margin-right: 25%;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 /* Change font */
 .myname {
   font-family: 'Times New Roman', serif;
-  font-size: 5em;
+  font-size: 50px;
   font-weight: bold;
   color: black;
-  margin-left: 0%;
+  margin-left: 5%;
 }
 
 /* Add a black background color to the top navigation */
 .topnav {
-  overflow: hidden;
+  display: flex;                  /* Use flexbox for layout */
+  justify-content: flex-end;      /* Align items to the right */
+  background-color: none;        /* Background color for the topnav */
+  padding: 10px 20px;             /* Add some padding to the nav */
+  position: fixed;                /* Fix it to the top of the page */
+  top: 0;                         /* Align it to the very top */
+  width: 95%;                    /* Make the topnav span the full width */
+  z-index: 1000;                  /* Ensure it stays on top of other content */
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
   font-family: 'Times New Roman', serif;
   display: block;
-  color: black;
+  color: black;                   /* Set link text color to white */
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 25px;
-  margin-left: 5%;
+  font-size: 25px;              /* Add space between the links */
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  text-decoration: underline; 
-  color: black; 
+  text-decoration: underline;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -68,7 +72,6 @@ hr {
   border-color: #400406; 
   width: 100%;
 }
-
 
 .storylinks {
   font-size: 25px;
