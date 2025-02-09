@@ -4,6 +4,7 @@
 /* Reset the margin and padding */
 html, body {
   position: fixed;
+  overflow-y: scroll;
   top: 0;
   bottom: 0;
   left: 0;
@@ -32,6 +33,23 @@ p {
   font-weight: bold;
   color: #00171F;
   margin-left: 5%;
+  margin-top: 30px;  /* Adds space above the element to push it lower */
+}
+
+/* Change font */
+.resumesection {
+  font-family: 'Times New Roman', serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #1D2D44;
+  margin-left: 5%;
+  margin-top: 30px;  /* Adds space above the element to push it lower */
+}
+
+.skills {
+  margin-left: 5%;
+  margin-right: 15%;
+  font-size: 18px;
   margin-top: 30px;  /* Adds space above the element to push it lower */
 }
 
@@ -73,12 +91,26 @@ p {
 }
 
 .storylinks {
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Times New Roman', serif;
   display: block;
-  color: black;
   text-align: left;
-  padding: 8px 12px;
+  margin-left: 5%;
+  margin-right: 25%;
+  font-weight: 200;
+  font-size: 18px;
+  margin-top: 30px;  /* Adds space above the element to push it lower */
+}
+
+a {
+  text-decoration: none; /* Remove underline */
+  color: #3E5C76;
+  font-weight: bold;
+}
+
+/* Style for links on hover */
+.storylinks a:hover {
+  color: #2A3E50; /* Or any color you want when the link is hovered */
 }
 
 .image {
@@ -86,10 +118,19 @@ p {
   height: 600px;
 }
 
-h4, h3, h2 {
-  margin-left: 0%;
+h4, h3 {
+  margin-left: 5%;
+  margin-right: 25%;
+  font-weight: 200;
+  font-size: 18px;
 }
 
+li {
+  margin-left: 5%;
+  margin-right: 15%;
+  font-family: 'Times New Roman', serif;
+  font-size: 18px;
+}
 /* Footer Styles */
 .footer {
   background-color: none;

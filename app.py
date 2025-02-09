@@ -6,5 +6,17 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+@app.route('/resume')
+def resume():
+    return render_template('resume.html')
+
+@app.route('/data')
+def data():
+    return render_template('data.html')
+
+@app.route('/writing')
+def writing():
+    return render_template('writing.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
