@@ -1,0 +1,91 @@
+/* styles for my resume */
+
+
+/* Reset the margin and padding */
+html, body {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  margin-right: 0;
+  padding-right: 0;
+  background-color: #F7ECE1;
+}
+
+p {
+  font-family: 'Times New Roman', serif;
+  display: block;
+  margin-left: 5%;
+  margin-right: 25%;
+  font-size: 25px;
+}
+
+/* Change font */
+.myname {
+  font-family: 'Times New Roman', serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+  margin-left: 0%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  font-family: 'Times New Roman', serif;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  margin-left: 5%;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  text-decoration: underline; 
+  color: black; 
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+hr {
+  border: none; 
+  height: 0.1em; 
+  background-color: #400406; 
+  border-color: #400406; 
+  width: 100%;
+}
+
+
+.storylinks {
+  font-size: 25px;
+  font-family: 'Times New Roman', serif;
+  display: block;
+  color: black;
+  text-align: left;
+  padding: 14px 16px;
+}
+
+.image {
+  width: 600px;
+  height: 600px;
+}
+
+h4, h3, h2 {
+  margin-left: 0%;
+}
+
+
