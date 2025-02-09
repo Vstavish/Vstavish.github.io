@@ -10,17 +10,19 @@ html, body {
   right: 0;
   height: 100%;
   width: 100%;
-  margin-right: 0;
-  padding-right: 0;
+  margin: 0;
+  padding: 0;
   background-color: #F7ECE1;
+  
 }
 
 p {
   font-family: 'Times New Roman', serif;
   display: block;
   margin-left: 5%;
-  margin-right: 25%;
+  margin-right: 52%;
   font-size: 20px;
+  margin-top: 40px;
 }
 
 /* Change font */
@@ -28,8 +30,9 @@ p {
   font-family: 'Times New Roman', serif;
   font-size: 50px;
   font-weight: bold;
-  color: black;
+  color: #00171F;
   margin-left: 5%;
+  margin-top: 30px;  /* Adds space above the element to push it lower */
 }
 
 /* Add a black background color to the top navigation */
@@ -48,29 +51,25 @@ p {
 .topnav a {
   font-family: 'Times New Roman', serif;
   display: block;
-  color: black;                   /* Set link text color to white */
+  color: #00171F;                   /* Set link text color to white */
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 25px;              /* Add space between the links */
+  padding: 8px 12px;               /* adjusts box size on hover */
+  text-decoration: none;          /* Remove underline by default */
+  font-size: 25px;
+  margin-left: 10px;              /* Add space between the links */
+  border-radius: 3px;             /* Rounded corners for the box */
+  border: 1px solid transparent; /* Transparent border initially */
+  transition: all 0.3s ease;      /* Smooth transition for hover effects */
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  text-decoration: underline;
+  border: 1px solid #00171F;       /* Add a white border on hover */
+  color: #00171F;                  /* Ensure text remains white */
 }
-
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
-}
-
-hr {
-  border: none; 
-  height: 0.1em; 
-  background-color: #400406; 
-  border-color: #400406; 
-  width: 100%;
 }
 
 .storylinks {
@@ -79,7 +78,7 @@ hr {
   display: block;
   color: black;
   text-align: left;
-  padding: 14px 16px;
+  padding: 8px 12px;
 }
 
 .image {
@@ -90,5 +89,25 @@ hr {
 h4, h3, h2 {
   margin-left: 0%;
 }
+
+/* Footer Styles */
+.footer {
+  background-color: none;
+  color: black;              /* Text color */
+  text-align: left;        /* Center the text */
+  padding: 20px 20px;           /* Add padding above and below the text */
+  position: relative;        /* Allow it to be placed relative to other content */
+  bottom: 0;                 /* Keep it at the bottom of the page */
+  margin-top: 50px;          /* Optional: Add some space before the footer */
+  margin-left: 3.5%;
+}
+
+.footer p {
+  font-family: 'Times New Roman', serif;
+  font-size: 16px;
+  margin: 0;   /* Remove any margin around the text */
+  padding: 0;  /* Remove any padding */
+}
+
 
 
