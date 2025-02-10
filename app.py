@@ -14,6 +14,10 @@ def resume():
 def data():
     return render_template('data.html')
 
+@app.route('/dataviz')
+def dataviz():
+    return render_template('dataviz.html')
+
 @app.route('/automation')
 def automation():
     return render_template('automation.html')
