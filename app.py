@@ -14,9 +14,13 @@ def resume():
 def data():
     return render_template('data.html')
 
-@app.route('/writing')
-def writing():
-    return render_template('writing.html')
+@app.route('/automation')
+def automation():
+    return render_template('automation.html')
+
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
