@@ -3,6 +3,7 @@ from flask_frozen import Freezer
 
 app = Flask(__name__)
 
+# Define your routes
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -27,10 +28,11 @@ def automation():
 def contact():
     return render_template('contact.html')
 
-if __name__ == '__main__':
-    app.run(debug=True)
-
+# Initialize Freezer before running the app
 freezer = Freezer(app)
 
-if __name__ == "__main__":
-    freezer.freeze()
+# Use this block to freeze your app (for static files generation)
+if __name__ == '__main__':
+    # Uncomment this line if you want to freeze your app to static files
+    # freezer.freeze()  
+    app.run(debug=True)
