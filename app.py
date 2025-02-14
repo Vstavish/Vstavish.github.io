@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+from flask_frozen import Freezer
 
 app = Flask(__name__)
 
@@ -28,3 +29,8 @@ def contact():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+freezer = Freezer(app)
+
+if __name__ == "__main__":
+    freezer.freeze()
