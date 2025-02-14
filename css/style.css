@@ -172,11 +172,11 @@ html, body {
 }
 
 .social-links a {
-    font-size: 50px;
-    color: #333;
+    font-size: 35px;
+    color: #455763;
     transition: color 0.3s;
 }
 
 .social-links a:hover {
-    color: #0073b1; /* Change to match each platform */
+    color: #455763; /* Change to match each platform */
 }
